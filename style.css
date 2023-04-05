@@ -4,3 +4,27 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+
+body {
+    background: #080808;
+    color: #fff;
+}
+
+#header {
+    width: 50%;
+    height: 100vh;
+    background-image: url(https://ca.slack-edge.com/T2H71EFLK-U03K9753BU6-e8c0cb3ceebc-512);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    padding: 10px 10%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
