@@ -7,37 +7,75 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-   <div id="header">
-    <div class ="container">
+    <div id="header">
+      <div class="container">
         <nav>
-            <img src = "images/jas-new-logo.png" class="logo">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+          <img src="images/jas-new-logo.png" class="logo" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
         </nav>
         <div class="header-text">
           <p>FULL-STACK DEVELOPER</p>
           <h1>Hi, I'm <span>Jaspreet</span> Kaur</h1>
         </div>
-    </div>
-
-   </div>
-   <div id="about">
-    <div class="container">
-      <div class="row">
-        <div class="about-col-1">
-          <img src="images/fun-3d-woman.jpg" class="img2" alt="about-img">
-        </div>
-        <div class="about-col-2">
-          <h1>About Me</h1>
-        </div>
-        
       </div>
     </div>
-   </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/fun-3d-woman.jpg" class="img2" alt="about-img" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              tortor est, malesuada in placerat eget, tincidunt at eros. Ut
+              vulputate efficitur faucibus. Suspendisse vel urna sodales dui
+              posuere suscipit. Morbi a mi eu quam euismod ullamcorper.
+              Pellentesque et mauris sed quam scelerisque iaculis nec vitae est.
+              Praesent volutpat luctus est, sed tempus est porttitor id. Nullam
+              eu elit condimentum velit laoreet fringilla. Vivamus vulputate
+              ligula sagittis bibendum tincidunt.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Full-Stack</span><br>Designing Web/App interfaces</br></li>
+                <li><span>Web Development</span><br>Web app Development</br></li>
+                <li><span>Database Development</span><br>Creating Databases interfaces</br></li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2022 - 2023</span><br>Full-Stack Developer training at CYF</br></li>
+                <li><span>2018 - Present</span><br>Warehouse operative at LIDL</br></li>
+                <li><span>2016 - 2017</span><br>Order picker at Argos</br></li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2023 - Current</span><br>Scrum Master Course</br></li>
+                <li><span>2022 - 2023</span><br>Full-Stack Developer training at CYF</br></li>
+                <li><span>2010 - 2013</span><br>Bsc(IT) from India</br></li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      
+    </script>
   </body>
-  </html>
+</html>
