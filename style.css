@@ -35,7 +35,7 @@ nav {
 }
 
 .logo {
-    width: 175px;
+    width: 170px;
 }
 
 nav ul li {
@@ -451,4 +451,9 @@ nav .fa-solid {
   .copyright {
     font-size: 14px;
   }
+}
+#message {
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
 }
