@@ -1,122 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link href="style.css" rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/296f122739.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <div id="header">
-      <div class="container">
-        <nav>
-          <img src="images/logo-jas.jpg" class="logo" />
-          <ul id="sidemenu">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-          </ul>
-          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-        </nav>
-        <div class="header-text">
-          <p>FULL-STACK DEVELOPER</p>
-          <h1>Hi, I'm <span>Jaspreet</span> Kaur</h1>
-        </div>
-      </div>
-    </div>
-    <div id="about">
-      <div class="container">
-        <div class="row">
-          <div class="about-col-1">
-            <img src="images/IMG_6094.jpg" class="img2" alt="about-img" />
-          </div>
-          <div class="about-col-2">
-            <h1 class="sub-title">About Me</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              tortor est, malesuada in placerat eget, tincidunt at eros. Ut
-              vulputate efficitur faucibus. Suspendisse vel urna sodales dui
-              posuere suscipit. Morbi a mi eu quam euismod ullamcorper.
-              Pellentesque et mauris sed quam scelerisque iaculis nec vitae est.
-              Praesent volutpat luctus est, sed tempus est porttitor id. Nullam
-              eu elit condimentum velit laoreet fringilla. Vivamus vulputate
-              ligula sagittis bibendum tincidunt.
-            </p>
-            <div class="tab-titles">
-              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-              <p class="tab-links" onclick="opentab('experience')">Experience</p>
-              <p class="tab-links" onclick="opentab('education')">Education </p>
-            </div>
-            <div class="tab-contents active-tab" id="skills">
-              <ul>
-                <li><span>Full-Stack</span><br>Designing Web/App interfaces</br></li>
-                <li><span>Web Development</span><br>Web app Development</br></li>
-                <li><span>Database Development</span><br>Creating Databases interfaces</br></li>
-              </ul>
-            </div>
-            <div class="tab-contents" id="experience">
-              <ul>
-                <li><span>2022 - 2023</span><br>Full-Stack Developer training at CYF</br></li>
-                <li><span>2018 - Present</span><br>Warehouse operative at LIDL</br></li>
-                <li><span>2016 - 2017</span><br>Order picker at Argos</br></li>
-              </ul>
-            </div>
-            <div class="tab-contents" id="education">
-              <ul>
-                <li><span>2023 - Current</span><br>Scrum Master Course</br></li>
-                <li><span>2022 - 2023</span><br>Full-Stack Developer training at CYF</br></li>
-                <li><span>2010 - 2013</span><br>Bsc(IT) from India</br></li>
-                
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- -------Services------- -->
 
-    <div id="services">
-      <div class="container">
-       <h1 class="sub-title">My Services</h1>
-       <div class="services-list">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link href="style.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/296f122739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo-jas.jpg" class="logo" />
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>FULL-STACK DEVELOPER</p>
+        <h1>Hi, I'm <span>Jaspreet</span> Kaur</h1>
+      </div>
+    </div>
+  </div>
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/IMG_6094.jpg" class="img2" alt="about-img" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>
+            A <span>Full-Stack Developer</span> having specialization in <span>front end</span> & <span>back end</span>
+            development with an emphasis on responsive web design. Highly creative, passionate about coding,
+            goal-oriented always keen to learn new
+            things, prepare to meet deadlines and friendly behavior person. Like to go on social events, make
+            connections with people, like to work in a team and also with own initiative depend on task. Experienced in
+            create full-stack application, homepages and creating databases.
+          </p><br>
+          <p>I love combining the combining the worlds of logic and creative design to make eye-catching, accessible,
+            and and user-friendly websites and applications. Technology leads, society follows. the move towards
+            increasing inclusivity and diversity in the industry through representation is important to me </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education </p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Full-Stack</span><br>Designing Web/App interfaces</br></li>
+              <li><span>Web Development</span><br>Web app Development</br></li>
+              <li><span>Database Development</span><br>Creating Databases interfaces</br></li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2022 - 2023</span><br>Full-Stack Developer training at CYF</br></li>
+              <li><span>2018 - Present</span><br>Warehouse operative at LIDL</br></li>
+              <li><span>2016 - 2017</span><br>Order picker at Argos</br></li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2023 - Current</span><br>Scrum Master Course</br></li>
+              <li><span>2022 - 2023</span><br>Full-Stack Developer training at CYF</br></li>
+              <li><span>2010 - 2013</span><br>Bsc(IT) from India</br></li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- -------Services------- -->
+
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
         <div>
           <i class="fa-solid fa-code"></i>
           <h2>Web Design</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              tortor est, malesuada in placerat eget, tincidunt at eros. Ut
-              vulputate efficitur faucibus.</p>
-              <a href="#">Learn more...</a>
+            tortor est, malesuada in placerat eget, tincidunt at eros. Ut
+            vulputate efficitur faucibus.</p>
+          <a href="#">Learn more...</a>
         </div>
         <div>
           <i class="fa-sharp fa-solid fa-database"></i>
           <h2> Create Database</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              tortor est, malesuada in placerat eget, tincidunt at eros. Ut
-              vulputate efficitur faucibus.</p>
-              <a href="#">Learn more...</a>
+            tortor est, malesuada in placerat eget, tincidunt at eros. Ut
+            vulputate efficitur faucibus.</p>
+          <a href="#">Learn more...</a>
         </div>
         <div>
           <i class="fa-brands fa-app-store"></i>
           <h2>App Design</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              tortor est, malesuada in placerat eget, tincidunt at eros. Ut
-              vulputate efficitur faucibus.</p>
-              <a href="#">Learn more...</a>
+            tortor est, malesuada in placerat eget, tincidunt at eros. Ut
+            vulputate efficitur faucibus.</p>
+          <a href="#">Learn more...</a>
         </div>
-       </div> 
       </div>
     </div>
+  </div>
 
-    <!-- -------Portfolio------- -->
+  <!-- -------Portfolio------- -->
 
-    <div id="portfolio">
-      <div class="container">
-       <h1 class="sub-title">My Work</h1>
-       <div class="work-list">
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
         <div class="work">
           <img src="images/rainbow-stars.jpg">
           <div class="layer">
@@ -129,8 +132,10 @@
           <img src="images/img-countries.jpg">
           <div class="layer">
             <h3>Countries App</h3>
-            <p>This app helps you to see all the countries with flags and all the other information like population and  capital.</p>
-            <a href="https://cyf-jaspreet338-countries-react.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+            <p>This app helps you to see all the countries with flags and all the other information like population and
+              capital.</p>
+            <a href="https://cyf-jaspreet338-countries-react.netlify.app/"><i
+                class="fa-solid fa-up-right-from-square"></i></a>
           </div>
         </div>
         <div class="work">
@@ -141,89 +146,90 @@
             <a href="https://cyf-jaspreet338-tv.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
           </div>
         </div>
-       </div> 
-       <a href="#" class="btn">See more</a>
       </div>
+      <a href="#" class="btn">See more</a>
     </div>
+  </div>
 
-    <!-- -------contact------- -->
+  <!-- -------contact------- -->
 
-    <div id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="contact-left">
-            <h1 class="sub-title">Contact Me</h1>
-            <p><i class="fa-solid fa-paper-plane"></i>jassikaur@1401@gmail.com</p>
-            <p><i class="fa-solid fa-square-phone"></i>+447445807509</p>
-            <div class="social-icons">
-              <a href="https://www.linkedin.com/in/jaspreet-kaur-a03985239/"><i class="fa-brands fa-linkedin"></i></a>
-              <!-- <a href=""><i class="fa-brands fa-facebook"></i></a> -->
-              <a href="https://github.com/jaspreet338"><i class="fa-brands fa-square-github"></i></a>
-            </div>
-            <a href="images/Jaspreet_kaurCV.pdf" download class="btn btn2">Download Cv</a>
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>jassikaur@1401@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i>+447445807509</p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/jaspreet-kaur-a03985239/"><i class="fa-brands fa-linkedin"></i></a>
+            <!-- <a href=""><i class="fa-brands fa-facebook"></i></a> -->
+            <a href="https://github.com/jaspreet338"><i class="fa-brands fa-square-github"></i></a>
           </div>
-          <div class="contact-right">
-            <form name="submit-to-google-sheet">
-              <input type="text" name="Name" placeholder="Your Name" required>
-              <input type="email" name="Email" placeholder="Your Email" required>
-              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-              <button type="submit" class="btn btn2">Submit</button>
-            </form>
-            <span id="message"></span>
-          </div>
+          <a href="images/Jaspreet_kaurCV.pdf" download class="btn btn2">Download Cv</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="message"></span>
         </div>
       </div>
-      <div class="copyright">
-        <p>Copyright @ Jaspreet. Made with <i class="fa-solid fa-heart"></i> by easy tutorials</p>
-      </div>
     </div>
+    <div class="copyright">
+      <p>Copyright @ Jaspreet. Made with <i class="fa-solid fa-heart"></i> by easy tutorials</p>
+    </div>
+  </div>
 
 
-    <script>
-      var tablinks = document.getElementsByClassName("tab-links");
-       var tabcontents = document.getElementsByClassName("tab-contents");
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
 
-       function opentab(tabname) {
-        for(tablink of tablinks) {
-          tablink.classList.remove("active-link");
-        }
-         for(tabcontent of tabcontents) {
-          tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-       }
-    </script>
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
 
-    <script>
-      
-      var sidemenu = document.getElementById("sidemenu");
+  <script>
 
-      function openmenu() {
-        sidemenu.style.right = "0";
-       }
+    var sidemenu = document.getElementById("sidemenu");
 
-        function closemenu() {
-        sidemenu.style.right = "-200px";
-       }
-    </script>
-    <script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbxEOSDm2X4CQKbcAFLb9-g-WS0OBxr0HpjKgkcGZvUUrhgxq8c0I5HKjuM26_cb91HfeQ/exec'
-  const form = document.forms['submit-to-google-sheet']
-  const message = document.getElementById("message")
+    function openmenu() {
+      sidemenu.style.right = "0";
+    }
 
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => {
-        message.innerHTML = "Message sent Successfully"
-        setTimeout(function() {
-          message.innerHTML =  ""
-        },5000)
-        form.reset()
-      })
-      .catch(error => console.error('Error!', error.message))
-  })
-</script>
-  </body>
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxEOSDm2X4CQKbcAFLb9-g-WS0OBxr0HpjKgkcGZvUUrhgxq8c0I5HKjuM26_cb91HfeQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const message = document.getElementById("message")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          message.innerHTML = "Message sent Successfully"
+          setTimeout(function () {
+            message.innerHTML = ""
+          }, 5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
 </html>

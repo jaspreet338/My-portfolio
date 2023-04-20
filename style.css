@@ -81,6 +81,11 @@ nav ul li a:hover::after {
     color: #ff004f;
 }
 
+p span {
+    /* color:#bf4769; */
+    font-weight: bold;
+}
+
 /* -------about------- */
 
 .img2 {
