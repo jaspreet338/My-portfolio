@@ -19,9 +19,10 @@ body {
     height: 100vh;
     background-image: url(images/IMG_6198.jpg);
     background-size: cover;
+    /* background-size:auto; */
     background-position:  center;
     background-repeat: no-repeat;
-}
+} 
 
 .container {
     padding: 10px 10%;
@@ -66,11 +67,11 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
-.header-text {
+ .header-text {
     /* color: #080808; */
     margin-top: 20%;
     font-size: 30px;
-}
+} 
 
 .header-text h1 {
     font-size: 60px;
@@ -387,7 +388,7 @@ nav .fa-solid {
 
 @media only screen and (max-width: 600px) {
     #header {
-    background-image: url(images/IMG_6105.jpg);
+    background-image: url(images/IMG-jass.jpg);
     height: 700px;
     }
 
@@ -396,7 +397,7 @@ nav .fa-solid {
     }
 
     .header-text {
-        margin-top: 100%;
+        margin-top: 30%;
         font-size: 16px;
         color: #fff;
     }
@@ -449,6 +450,11 @@ nav .fa-solid {
   .about-col-1 {
     font-size: 14px;
   }
+
+  .img2 {
+    width: 500px;
+    height:400px;
+}
 
   .tab-links {
     font-size: 16px;
